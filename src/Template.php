@@ -1,6 +1,6 @@
 <?php
     /**
-     * This is a native PHP templating system written in 47 lines of PHP.
+     * This is a native PHP templating system written in 50 lines of PHP.
      * 
      * Maintained by Darren Embry <dse@webonastick.com>
      * https://github.com/dse/massassi-template/
@@ -44,4 +44,7 @@
             return $contents;              // Return the contents
         }
     }
+    /* Local Varaibles: */
+    /* indent-tabs-mode: nil */
+    /* End: */
 ?>
