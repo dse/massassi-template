@@ -1,8 +1,11 @@
 <?php
 	/**
-	 * This is a native PHP templating system written in 40 lines of PHP.
+	 * This is a native PHP templating system written in 47 lines of PHP.
+	 * 
+	 * Maintained by Darren Embry <dse@webonastick.com>
+	 * https://github.com/dse/massassi-template/
 	 *
-	 * See: http://www.massassi.com/php/articles/template_engines/
+	 * See also: http://www.massassi.com/php/articles/template_engines/
 	 *
 	 * This code is in the public domain.
 	 */
