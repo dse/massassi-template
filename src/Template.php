@@ -1,7 +1,7 @@
 <?php
     /**
      * This is a native PHP templating system written in 50 lines of PHP.
-     * 
+     *
      * Maintained by Darren Embry <dse@webonastick.com>
      * https://github.com/dse/massassi-template/
      *
@@ -11,7 +11,7 @@
      */
     class Template {
         var $vars; /// Holds all the template variables
-        
+
         /**
          * Constructor
          *
@@ -20,14 +20,14 @@
         function Template($file = null) {
             $this->file = $file;
         }
-        
+
         /**
          * Set a template variable.
          */
         function set($name, $value) {
             $this->vars[$name] = is_a($value, "Template") ? $value->fetch() : $value;
         }
-        
+
         /**
          * Open, parse, and return the template file.
          *
@@ -35,7 +35,7 @@
          */
         function fetch($file = null) {
             if(!$file) $file = $this->file;
-            
+
             extract($this->vars);          // Extract the vars to local namespace
             ob_start();                    // Start output buffering
             include($file);                // Include the file
@@ -44,7 +44,4 @@
             return $contents;              // Return the contents
         }
     }
-    /* Local Varaibles: */
-    /* indent-tabs-mode: nil */
-    /* End: */
 ?>
