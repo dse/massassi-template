@@ -1,0 +1,20 @@
+{
+    "name": "dse/massassi-template",
+    "type": "library",
+    "description": "A native PHP template system in about 50 lines.",
+    "license": "Public Domain",
+    "keywords": ["template", "native"],
+    "homepage": "https://github.com/dse/massassi-template",
+    "authors": [
+        {
+            "name": "Darren Embry",
+            "email": "dse@webonastick.com",
+            "homepage": "http://webonastick.com/"
+        },
+        {
+            "name": "Brian Lozier",
+            "email": "brian@massassi.net",
+            "homepage": "http://www.massassi.com/"
+        }
+    ]
+}
