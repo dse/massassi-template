@@ -1,6 +1,6 @@
 # massassi-template
 
-It's a PHP templating engine written in 40 lines of PHP.
+It's a PHP templating engine written in about 50 lines of PHP.
 
 See: http://www.massassi.com/php/articles/template_engines/
 
