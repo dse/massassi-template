@@ -8,7 +8,7 @@ See: http://www.massassi.com/php/articles/template_engines/
 
 You can use [https://getcomposer.org/](Composer) to install this:
 
-    composer require giggsey/libphonenumber-for-php
+    composer require dse/massassi-template
 
 # License
 
