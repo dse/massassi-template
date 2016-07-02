@@ -16,5 +16,10 @@
             "email": "brian@massassi.net",
             "homepage": "http://www.massassi.com/"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "DarrenEmbry\\MassassiTemplate\\": "src/"
+        }
+    }
 }
