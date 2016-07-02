@@ -87,4 +87,3 @@ class CachedTemplate extends Template {
         }
     }
 }
-?>
