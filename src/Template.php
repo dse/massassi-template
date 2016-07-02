@@ -10,7 +10,7 @@
  * This code is in the public domain.
  */
 class Template {
-    protected var $vars;        // Holds all the template variables
+    protected $vars;            // Holds all the template variables
 
     /**
      * Constructor
