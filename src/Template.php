@@ -4,6 +4,7 @@ namespace DarrenEmbry\MassassiTemplate;
 /**
  * This is a native PHP templating system written in 51 lines of PHP.
  *
+ * Version 1.0.1
  * Maintained by Darren Embry <dse@webonastick.com>
  * https://github.com/dse/massassi-template/
  *
