@@ -1,4 +1,6 @@
 <?php
+namespace DarrenEmbry\MassassiTemplate;
+
 /**
  * This is a native PHP templating system written in 51 lines of PHP.
  *
@@ -28,7 +30,7 @@ class Template {
      * be called on it, and the result will be stored as the value.
      */
     public function set($name, $value) {
-        $this->vars[$name] = is_a($value, "Template")
+        $this->vars[$name] = is_a($value, __CLASS__)
                            ? $value->fetch() : $value;
     }
 

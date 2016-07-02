@@ -1,5 +1,8 @@
 <?php
 require_once("../src/Template.php");
+
+use DarrenEmbry\MassassiTemplate\Template;
+
 date_default_timezone_set("America/New_York");
 
 $body = new Template("TemplateDemo.body.tpl.php");

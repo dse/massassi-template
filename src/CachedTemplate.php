@@ -1,5 +1,8 @@
 <?php
 require_once("Template.php");
+
+namespace DarrenEmbry\MassassiTemplate;
+
 /**
  * An extension to Template that provides automatic caching of
  * template contents.
