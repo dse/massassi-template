@@ -10,14 +10,14 @@
  * This code is in the public domain.
  */
 class Template {
-    var $vars;                  // Holds all the template variables
+    protected var $vars;        // Holds all the template variables
 
     /**
      * Constructor
      *
      * @param $file string the file name you want to load
      */
-    function Template($file = null) {
+    public function __construct($file = null) {
         $this->file = $file;
     }
 
@@ -27,7 +27,7 @@ class Template {
      * If the specified $value is a Template object, the fetch() method will
      * be called on it, and the result will be stored as the value.
      */
-    function set($name, $value) {
+    public function set($name, $value) {
         $this->vars[$name] = is_a($value, "Template")
                            ? $value->fetch() : $value;
     }
@@ -37,7 +37,7 @@ class Template {
      *
      * @param $file string the template file name
      */
-    function fetch($file = null) {
+    public function fetch($file = null) {
         if (!$file) {
             $file = $this->file;
         }
